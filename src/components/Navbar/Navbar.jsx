@@ -9,7 +9,7 @@ const Navbar = () => {
     const pdfurl = 'Teja_Chippada_Front-End_Dev.pdf';
     const link = document.createElement('a');
     link.href = pdfurl;
-    link.download = "Teja's Resume.pdf"
+    link.download = "Teja Chippada Front-End Dev Resume.pdf"
     document.body.appendChild(link);
     link.click();
   }
