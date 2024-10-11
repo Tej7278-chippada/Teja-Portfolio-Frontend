@@ -1,3 +1,12 @@
+# To view my deployed profile page, open the below webpages:
+
+By Netlify server : https://tej7278-portfolio.netlify.app/
+
+By Azure server : https://gray-tree-069ed2c10.5.azurestaticapps.net/
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
