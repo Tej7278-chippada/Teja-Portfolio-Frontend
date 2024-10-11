@@ -6,7 +6,7 @@ const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
   const handleDownload = ()=>{
-    const pdfurl = 'teja-resume.pdf';
+    const pdfurl = 'Teja_Chippada_Front-End_Dev.pdf';
     const link = document.createElement('a');
     link.href = pdfurl;
     link.download = "Teja's Resume.pdf"
