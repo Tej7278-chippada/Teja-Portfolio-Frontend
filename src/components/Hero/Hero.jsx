@@ -17,19 +17,19 @@ const Hero = () => {
             <div className="tech-icon">
                 <img src="../logo192.png" alt=""/>
             </div>
-            <img src="../assets/teja-pic-1.jpg" alt="Profile Pic" style={{borderRadius: "10px"}}/>
+            <img src="../assets/teja-pic-2.jpg" alt="Profile Pic" style={{borderRadius: "10px"}}/>
         </div>
      
 
       <div>
         <div className="tech-icon">
-          <img src="../assets/html-5.png" alt=""/>
+          <img src="../assets/html-5.png" alt="HTML Icon"/>
         </div>
         <div className="tech-icon">
-          <img src="../assets/css-3.png" alt=""/>
+          <img src="../assets/css-3.png" alt="CSS Icon"/>
         </div>
         <div className="tech-icon">
-          <img src="../assets/js.png" alt=""/>
+          <img src="../assets/js.png" alt="JS Icon"/>
         </div>
       </div>
       </div>
