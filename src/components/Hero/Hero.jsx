@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="hero-img">
         <div>
             <div className="tech-icon">
-                <img src="../logo192.png" alt=""/>
+                <img src="../logo1922.png" alt=""/>
             </div>
             <img src="../assets/teja-pic-1.jpg" alt="Profile Pic" style={{borderRadius: "10px"}}/>
         </div>
