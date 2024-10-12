@@ -21,7 +21,8 @@ const Navbar = () => {
   return(
     <>
     <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
-
+    
+              
     <nav className="nav-wrapper">
         <div className="nav-content">
           <img className="logo" src="./assets/teja-logo.png" alt="Name Logo" />
