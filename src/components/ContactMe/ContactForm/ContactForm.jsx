@@ -63,15 +63,16 @@ const ContactForm = () => {
 
   return (
    <div className='contact-form-content'>
-    <form>
+    <form onSubmit={handleSubmit}>
         <div className='name-container'>
             <input type='text' id='name' name='fname' placeholder='First Name' value={formData.fname} onChange={handleChange} required/>
-            <input type='text' id='name' name='sname' placeholder='Last Name' value={formData.sname} onChange={handleChange} required/>
+            <input type='text' id='name' name='sname' placeholder='Last Name' value={formData.sname} onChange={handleChange} />
         </div>
-        <input type='text' id='email' name='email' placeholder='Email' value={formData.email} onChange={handleChange} required/>
+        <input type='email' id='email' name='email' placeholder='Email' value={formData.email} onChange={handleChange} required/>
         <textarea type="text" id='message' name='message' placeholder='Message' rows={3} value={formData.message} onChange={handleChange} required/>
 
-        <button onClick={handleSubmit}>SEND</button>
+        {/* <button onClick={handleSubmit}>SEND</button> */}
+        <button type="submit">SEND</button>
     </form>
     {status && <p>{status}</p>}
    </div>
