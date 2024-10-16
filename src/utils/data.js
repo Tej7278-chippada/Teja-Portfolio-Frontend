@@ -42,8 +42,8 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
   {
     title: "Personal Portfolio Website",
-    TechnologiesUsed: " Technologies Used : React.js, JavaScript, CSS3, HTML5, Git, GitHub, VSCode",
-    gitLink: "https://github.com/ramyaakotha/ramya-portfolio",
+    TechnologiesUsed: " Technologies Used : React.js, Node.js, JavaScript, CSS3, HTML5, Git, GitHub, VSCode, Netlify, Heroku",
+    gitLink: "https://github.com/Tej7278-chippada/tej-portfolio.git",
     responsibilities: [
       "A responsive and interactive portfolio website built to showcase my projects, skills, and experience.",
       "Built using React.js with a focus on clean, modular code and efficient performance.",
@@ -54,9 +54,9 @@ export const WORK_EXPERIENCE = [
     ],
   },
   {
-    title: "E-Commerce Platform for Sellers",
-    TechnologiesUsed: " Technologies Used : React.js, JavaScript, CSS3, HTML5, Git, GitHub, VSCode",
-    gitLink: "https://github.com/ramyaakotha/Ecommerce-seller",
+    title: "Issues And Risk Tracker",
+    TechnologiesUsed: " Technologies Used : Angular, Node.js, JavaScript, CSS3, HTML5, Git, GitHub, VSCode",
+    gitLink: "https://github.com/Tej7278-chippada/issues-and-risk-tracker---Angular.git",
     responsibilities: [
       "Developed the frontend of an e-commerce platform enabling sellers to manage their online stores.",
       "Created intuitive dashboards for managing products, inventory, and pricing.",
