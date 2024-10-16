@@ -49,8 +49,8 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // const response = await axios.post('http://localhost:5000/send-email', formData);
-      const response = await axios.post('https://backend-demo-2-156a59c3faa0.herokuapp.com/send-email', formData);
+      // const response = await axios.post('http://localhost:5001/send-email', formData);
+      const response = await axios.post('https://teja-portfolio-backend-a482ad9f512c.herokuapp.com/send-email', formData);
       if (response.status === 200) {
         setStatus('Email sent successfully!');
         setFormData({ fname: '', sname: '', email: '', message: '' });
